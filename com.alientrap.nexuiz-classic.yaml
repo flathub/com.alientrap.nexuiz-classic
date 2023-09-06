@@ -7,11 +7,11 @@ finish-args:
   - --device=all
   - --socket=pulseaudio
   - --socket=x11
+  - --share=ipc
   - --share=network
   - --persist=.nexuiz
 cleanup:
 - /include
-- /lib/debug
 - /lib/pkgconfig
 - /share/aclocal
 - /share/man
