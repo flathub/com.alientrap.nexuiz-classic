@@ -1,17 +1,17 @@
 app-id: com.alientrap.nexuiz-classic
 runtime: org.freedesktop.Platform
-runtime-version: "21.08"
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 command: launcher.sh
 finish-args:
   - --device=all
   - --socket=pulseaudio
   - --socket=x11
+  - --share=ipc
   - --share=network
   - --persist=.nexuiz
 cleanup:
 - /include
-- /lib/debug
 - /lib/pkgconfig
 - /share/aclocal
 - /share/man
