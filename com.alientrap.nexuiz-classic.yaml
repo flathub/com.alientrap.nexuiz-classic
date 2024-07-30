@@ -11,7 +11,6 @@ finish-args:
   - --persist=.nexuiz
 cleanup:
 - /include
-- /lib/debug
 - /lib/pkgconfig
 - /share/aclocal
 - /share/man
