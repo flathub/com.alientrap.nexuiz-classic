@@ -15,7 +15,7 @@ OPTIONS="-nexuiz -basedir /app/share/nexuiz"
 QUIET=0
 
 EXCUSE="\
-Nexuiz Classic ${DPROLE} wrapper for Debian\n\
+Nexuiz Classic ${DPROLE} wrapper\n\
 \n\
 Usage: ${DPSELF} [OPTION]...\n\
 \n\
