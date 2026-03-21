@@ -1,7 +1,3 @@
 #!/bin/sh
 
-ENGINE="/app/bin/darkplaces"
-
-OPTIONS="-nexuiz -basedir /app/share/nexuiz"
-
-exec ${ENGINE} ${OPTIONS} "$@"
+exec darkplaces -nexuiz -basedir /app/share/nexuiz "$@"
